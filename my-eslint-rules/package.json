@@ -1,5 +1,5 @@
 {
-  "name": "my-eslint-rules",
+  "name": "eslint-plugin-my-eslint-rules",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

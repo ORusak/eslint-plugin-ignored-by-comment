@@ -1,15 +1,25 @@
 {
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-    },
-    "plugins": [
-        "es5",
-        "lib/index.js"
-    ],
-    "rules": {
-        "semi": "error",
-        "es5/no-template-literals": "error",
-        "es5/no-arrow-functions": "error"
-    }
+    "parserOptions": { "ecmaVersion": 6, "sourceType": "module" },
+    "plugins": ["es5", "my-eslint-rules"],
+    "rules":
+        {
+            "semi": "error",
+            "es5/no-template-literals": "error",
+            "es5/no-arrow-functions": "error",
+        },
+    "processor": "my-eslint-rules/.js",
+    "settings":
+        {
+            "my-eslint-rules": [
+                {
+                    "comment": "// ESLint-config: server-es6.js",
+                    "plugin": [
+                        "es5",
+                        "es5/*",
+                        "es5/no-arrow-functions",
+                        "es5/no-*",
+                    ]
+                }
+            ]
+        },
 }

@@ -1,2 +1,4 @@
 // ESLint-config: server-es6.js
-const a = `Hello`;
+const c = `Hello`;
+
+let a = 3;
