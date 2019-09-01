@@ -1,0 +1,15 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+    },
+    "plugins": [
+        "es5",
+        "lib/index.js"
+    ],
+    "rules": {
+        "semi": "error",
+        "es5/no-template-literals": "error",
+        "es5/no-arrow-functions": "error"
+    }
+}

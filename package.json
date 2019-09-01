@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-plugin-disabled-comment",
+  "version": "0.0.0",
+  "description": "Disabled plugins by comment",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Oleg Rusak",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-plugin-es5": "^1.4.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
